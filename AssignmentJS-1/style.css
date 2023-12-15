@@ -1,0 +1,56 @@
+/* Applying styles to the heading */
+.heading {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  /* Styles for the container */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Style for the counter */
+  #counter {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #444;
+  }
+  
+  /* Button container */
+  .button {
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the buttons */
+  button {
+    font-size: 24px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Hover effect on buttons */
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling the subtract button differently */
+  #subtract {
+    background-color: #f41e34;
+  }
+  
+  /* Hover effect for the subtract button dc3545 */
+  #subtract:hover {
+    background-color: #c82333;
+  }
+3  
