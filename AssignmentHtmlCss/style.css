@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+    line-height: 1.6;
+}
+
+.headerName{
+    margin:0 0 0 10px;
+}
+
+.headerImg{
+   height:200px;
+   width:200px;
+   align-items:center;
+   border-radius: 50%;
+}
+
+.kduImg{
+    height:100px;
+    width:300px;
+    padding-top: 20px;
+
+}
+
+.headerContent{
+    display:flex;
+    align-items:center;
+    
+}
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.headerJob {
+    margin-left: auto; /* Pushes the .headerJob to the right */
+}
+
+h1,h2 {
+   color:#FFFFFF;
+}
+h3 {
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+   
+    margin-bottom: 20px;
+}
+
+.sectionTitle{
+    border-bottom: 2px solid #9c9696; 
+    padding: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* project css */
+.ProjectComponents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card {
+    width: 300px;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card p {
+    margin: 0;
+    text-decoration: none;
+    color: black;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* skill list*/
+.skills-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.skills-list li {
+    margin: 5px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: #eaeaea;
+}
+
+
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* contact */
+
+.icon-container {
+    display: inline-block;
+    margin-right: 10px; /* Adjust the space between icons */
+}
+
+.icon-container img {
+    width: 50px; /* Set the width of the icons */
+    height: 50px; /* Maintain aspect ratio */
+}
+
+@media screen and (max-width: 991px) {
+    .headerContent {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .headerName,
+    .headerPfp {
+        margin: 10px 0; /* Add margin between elements */
+    }
+}
