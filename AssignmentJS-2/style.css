@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .heading h1 {
+    text-align: center;
+    color: #333;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .operations {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  
+  .operations button {
+    width: calc(25% - 5px);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #4caf50;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .operations button:hover {
+    background-color: #45a049;
+  }
+  
+  .response p {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    margin-top: 20px;
+  }
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .buttons > div {
+    width: 20%;
+  }
+  
+  .add button {
+    background-color: #3498db;
+  }
+  
+  .subtract button {
+    background-color: #e74c3c;
+  }
+  
+  .multiply button {
+    background-color: #2ecc71;
+  }
+  
+  .divide button {
+    background-color: #f39c12;
+  }
+  
+  .buttons button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .buttons button:hover {
+    opacity: 0.9;
+  }
+  
